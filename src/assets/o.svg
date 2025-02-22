@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="96.000008"
+   height="95.999992"
+   viewBox="0 0 25.400001 25.399998"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2">
+      <ellipse
+         style="display:none;fill:#8af384;fill-opacity:1;stroke:none;stroke-width:0.192924;stroke-linejoin:round"
+         id="ellipse2"
+         cx="38.307644"
+         cy="12.7"
+         rx="8.2590227"
+         ry="8.4666662"
+         d="M 46.566667,12.7 A 8.2590227,8.4666662 0 0 1 38.307644,21.166666 8.2590227,8.4666662 0 0 1 30.048621,12.7 8.2590227,8.4666662 0 0 1 38.307644,4.2333336 8.2590227,8.4666662 0 0 1 46.566667,12.7 Z" />
+      <path
+         id="lpe_path-effect2"
+         style="fill:#8af384;fill-opacity:1;stroke:none;stroke-width:0.192924;stroke-linejoin:round"
+         class="powerclip"
+         d="M 20.399999,-5 H 55.799998 V 30.399998 H 20.399999 Z M 46.566667,12.7 A 8.2590227,8.4666662 0 0 0 38.307644,4.2333336 8.2590227,8.4666662 0 0 0 30.048621,12.7 8.2590227,8.4666662 0 0 0 38.307644,21.166666 8.2590227,8.4666662 0 0 0 46.566667,12.7 Z" />
+    </clipPath>
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-25.399999)">
+    <path
+       style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 4.2333333,0 0,4.233333 8.4666663,12.699999 0,21.166665 4.2333333,25.399998 12.7,16.933332 21.166666,25.399998 25.399999,21.166665 16.933333,12.699999 25.399999,4.233333 21.166666,0 12.7,8.466666 Z"
+       id="path1" />
+    <path
+       style="fill:#669900;stroke:none;stroke-width:0.293;stroke-linejoin:round"
+       id="path2"
+       clip-path="url(#clipPath2)"
+       d="m 50.799998,12.699999 a 12.7,12.699999 0 0 1 -12.7,12.699999 A 12.7,12.699999 0 0 1 25.399999,12.699999 12.7,12.699999 0 0 1 38.099998,0 a 12.7,12.699999 0 0 1 12.7,12.699999 z" />
+  </g>
+</svg>

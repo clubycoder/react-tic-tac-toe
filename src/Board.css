@@ -1,0 +1,44 @@
+.message {
+  font-family: "Sigmar", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: larger;
+  color: #003399;
+}
+
+.board {
+  display: grid;
+  gap: 4px;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 4px;
+}
+
+.space {
+  display: flex;
+  min-width: 100px;
+  min-height: 100px;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px #3399FF;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+}
+
+.space-winning {
+  background-color: #3399FF;
+}
+
+.restart {
+  border-radius: 8px;
+  background-color: #003399;
+  border: none;
+  font-family: "Sigmar", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: medium;
+  color: #FFFFFF;
+  transition-duration: 0.4s;
+}
+.restart:hover {
+  background-color: #3399FF;
+}
