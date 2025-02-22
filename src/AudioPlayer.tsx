@@ -21,9 +21,9 @@ const emptyLoadedAudio: { [key: string]: AudioProps; } = {};
 const AudioPlayerContext = createContext<AudioPlayerContextProps>({
   loadedAudio: emptyLoadedAudio,
   loadAudio: () => { throw new Error("AudioPlayerProvider is missing") },
-  playAudio: (name: string) => {},
-  pauseAudio: (name: string) => {},
-  toggleAudio: (name: string) => {}
+  playAudio: () => {},
+  pauseAudio: () => {},
+  toggleAudio: () => {}
 });
 
 interface AudioPlayerProviderProps {
@@ -60,7 +60,7 @@ export function AudioPlayerProvider({ children }: AudioPlayerProviderProps) {
                 audio.autoPlay = false;
                 setFirstInteraction(true);
               })
-              .catch(e => {
+              .catch(_ => {
                 // Ignore errors
               });
           } catch (e) {

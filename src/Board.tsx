@@ -71,13 +71,15 @@ export function Board() {
                 state={state}
                 winning={isWinning(rowNum, colNum)}
                 onClick={() => {
-                    const prevPlayer = currentPlayer;
-                    const valid = takeTurn(rowNum, colNum);
-                    if (valid) {
-                        if (prevPlayer == GamePlayer.X) {
-                            playAudio("X");
-                        } else {
-                            playAudio("O");
+                    if (!gameOver) {
+                        const prevPlayer = currentPlayer;
+                        const valid = takeTurn(rowNum, colNum);
+                        if (valid) {
+                            if (prevPlayer == GamePlayer.X) {
+                                playAudio("X");
+                            } else {
+                                playAudio("O");
+                            }
                         }
                     }
                 }}
