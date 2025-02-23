@@ -4,6 +4,7 @@ import { useAudioPlayer } from './AudioPlayer';
 
 import './Board.css'
 
+import Title from './assets/title.svg?react';
 import XIcon from './assets/x.svg?react';
 import OIcon from './assets/o.svg?react';
 
@@ -61,6 +62,7 @@ export function Board() {
 
   return (
     <div>
+      <Title />
       <div className="message">{message}</div>
       <div className="board">
         {
